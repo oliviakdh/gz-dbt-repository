@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: your-database-name  #
+    schema: gz_raw_data
+    tables:
+      - name: sales
+        alias: raw_gz_sales
+      - name: product
+        alias: raw_gz_product
+      - name: ship
+        alias: raw_gz_ship
